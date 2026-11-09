@@ -1,0 +1,29 @@
+---
+title: "p16"
+format: html
+editor: visual
+---
+
+## Text Set-up
+
+```{r}
+text <- c("I", "hopped", "off", "the", "plane", "at", "LAX", "with", "a", "dream", "and", "a", "cardigan")
+
+text
+
+library(dplyr)
+text_df <- tibble(line = 1:13, text = text)
+
+text_df 
+
+
+
+
+
+
+
+
+
+
+
+```
